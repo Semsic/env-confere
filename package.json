@@ -1,0 +1,11 @@
+{
+  "name": "env-confere",
+  "version": "0.1.0",
+  "description": "Confere chaves de arquivos dotenv sem mostrar valores.",
+  "type": "module",
+  "bin": { "env-confere": "./src/cli.js" },
+  "engines": { "node": ">=18" },
+  "license": "MIT",
+  "author": "Semsic",
+  "scripts": { "start": "node src/cli.js" }
+}
